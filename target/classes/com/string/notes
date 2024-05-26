@@ -1,0 +1,8 @@
+String constant Pool:
+   String poll is also known as string constant poll is a special storage space in java heap memory. which is used to store unique string object whenever string object is created it first checks whethr string object same value present in string poll or not if available refence is returnned . if not available new string object will  be created.
+   
+   Special about String:
+     there is one thind special about string that is string object will be created using without new keyword which is not possible with  other objects.
+     also we can perform string concatenation using + operator..
+     
+   

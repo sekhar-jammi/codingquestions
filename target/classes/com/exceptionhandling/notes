@@ -1,0 +1,43 @@
+Exception:
+      exception is an abnormal condition which occurs during the execution of program and disrupts the normal flow of execution.
+      these exceptions are handled properly otherwise the program will stops abnormally.
+      exception are handle by using try , catch blocks.
+      
+Exceptions handling:
+      exceptions are handled by using try,catch,finally blocks
+      
+      try :
+          the code or set of statement which may rise exception must be kept in try block.
+      catch:
+          this block is used to catch the exception thrown by try block.
+      finally:
+           finally block always executed whether exception occurred or not.      
+           
+Diff b/n Errors and Exceptions:
+     Errors are mainly caused by the environment in which application is running.
+      EX:OUtOfmemory occurs when jvm ran out of memory.
+      
+      Exceptions:
+         exceptions are mainly caused by application itself.
+         ex:null pointer exception occurs when we are trying to access null object. 
+         
+*NO. we can't place any code between try,catch,finally blocks..they form as a single unit.
+
+*No.we can't write try block without catch block or finally block try block must be followed either by catch block or finally block.                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ArrayStoreException:
+    ArrayStoreException is a RuntimeException. occurs when we try to store wrong type of object into array of objects..

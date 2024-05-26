@@ -1,0 +1,62 @@
+Multi Threading:
+  *in a program or in an application when two or more threads execute their task simultaneously then it is called multi threading..
+  *YES, java supports multi threading.
+  
+  *There are Two ways we can create thread in java:
+     1.by extending Thread class.
+     2.By implementing Runnable interface.
+     
+Types of Threads:
+   There are Two types of Threads are there in java.
+   *User Thread:
+       user threads are created by application or user.
+       these are high priority threads.
+       JVM will not exit until user threads finish their execution.
+       JVM will wait for user thread to finish their task.
+       
+   *Daemon Threads:
+       Daemon threads are created by JVM.
+       these are low priority threads.
+       JVM will not wait for daemon threads .
+       daemon threads are used in garbage collection.
+       
+ Default Daemon status of thread:
+    Default daemon status of thread inherited from its parent thread.
+    if thread created by user thread will be user thread.
+    thread created by daemon thread will be daemon thread.
+    isDaemon() method is used to check whether thread is daemon or not.
+    
+Can we convert user thread into daemon thread and vice versa:
+    YES, we can convert user thread into daemon thread and vice versa. by using setDaemon() method .
+    but it has to call before starting the thread .
+    if we call after starting thread it will give illegal thread state exception.
+    
+Is is Possible to give name to Thread:
+   Yes ,it possible to give name to thread.
+   by passing as argument while creating thread.
+   or by using setName() method.
+           
+       
+  Do two threads can have same name? If yes then how do you identify the threads having the same name?   
+  
+     YES, two threads can have same name.
+     to identify threads with same name we have to use Thread ID.
+     by using getID() method.
+     
+     
+  What are MIN_PRIORITY, NORM_PRIORITY and MAX_PRIORITY?
+  
+      MIN_PRIORITY ,NORM_PRIORITY ,MAX_PRIORITY  are three constant fields in java.lang.Thread class. which defines lowest,normal,highest priority of threads.
+      
+      
+      MIN_PRIORITY:    it defines the lowest priority of thread.it values is=1
+      NORM_PRIORITY:   it defines the normal priority of thread .value is =5;
+      MAX_PRIORITY: it defines the highest priority of thread values is=10
+      
+      
+  What is the default priority of a thread? Can we change it? If yes, how? 
+  
+     default priority of thread is same as parent thread priority.
+     we can change of priority   of thread using setPriority() method.
+      
+       

@@ -1,0 +1,4 @@
+*Join():
+  the join() method of thread class waits for another thread to die.
+  it is used when we want one thread to wait for another thread to complete its task..
+  

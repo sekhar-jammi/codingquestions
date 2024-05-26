@@ -1,0 +1,13 @@
+Constructor overloading:
+  A class can have any number of constructors these constructors will have different list of arguments this is called constructor overloading..
+  
+  Difference between constructor and method:
+   Constructor is a special member of class
+   which is used to create object of the class.
+   it will have same name as class.
+   don't have any return type..
+   
+   Method is a ordinary member of a class.
+   which is used to implement some behaviour of class..
+   it will have it't own name.
+   it will have return type.. 

@@ -1,0 +1,4 @@
+Anonymous Array:
+    An array in java without any name is called as anonymous array..
+    this type of array is created for using instance purpose only..
+    anonymous array can be passed as an argument in method ..

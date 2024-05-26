@@ -1,0 +1,12 @@
+Static variables or Class variables:
+   static variables are declared with static keyword.
+   static variables are common to all instances of class.
+   these are variables shared between the objects of the class.
+   as these variables are shared between objects changes made in one object will reflect in another object..
+   static variables are accessed by using class name or object reference..
+   
+Instance variables:
+   instance variables are declared without static keyword..
+   instance variables are not common to instances of class.
+   each object will have their own copy of instance variables..
+   instance variables are accessed only by using object reference.   

@@ -1,0 +1,13 @@
+//Diff between arraylist and linkedlist.
+   //arraylist is use when frequent operations are retreival operations..
+   //linkedlist is used when frequen operations are insert and delete operations..
+   
+ //diff between stringbuffer and string builder..
+   //Strinbuffer was introduced to overcome the issue of editable string object..
+   //stringbuffer is synchronized and threadsafe.
+   waiting time of threads is more than stringbuffer is slow..and less efficient.
+*Stringbuilder:
+   string builder was introduced to overcome outcomes of stringbuffer.
+   stringbuffer is not synchronized and not thread safe..
+   stringbuilder is fast efficient..
+    

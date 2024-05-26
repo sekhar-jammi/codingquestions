@@ -1,0 +1,7 @@
+Singleton class is a class which is having only one instance.
+All variables and methods are belongs to only one instance..
+Singletonclass concept is usefull for the situation where we want to limit the number of objects for a class..
+
+*Private constructors are used to restrict the instantiation of class.
+ if one class nedds to prevent other classes from creating its object then we need private constructors,,
+ one of the best example of private constructor is using in singleton class
